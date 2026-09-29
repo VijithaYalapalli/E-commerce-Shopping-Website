@@ -1,0 +1,434 @@
+  .container-1 {
+    border-bottom: 1px solid #088179;
+    display: flex;
+    background-color: #e9f6eb;
+    
+  }
+.container-1 .left{
+  flex: 3;
+  display: flex;
+}
+  .container-1 .left p{
+    margin: 10px;
+  }
+  .container-1 .center{
+    flex: 7;
+    text-align: center;
+  }
+  .cart{
+    float: right;
+  }
+  .search{
+   background-image:transparent url(https://www.svgrepo.com/show/410387/search.svg);
+   background-repeat: no-repeat;
+  
+  }
+  .Button{
+    width: 131px;
+    height: 38px;
+    color: #088179;
+    border-color: #088179;
+    border-radius: 7px;
+    margin-left: 36px;
+  }
+  .Button:hover{
+    color: whitesmoke;
+
+  }
+  .featured{
+    width: 88px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  .featured:hover{
+    color:#088179;
+    background-color: rgb(201, 160, 124);
+
+  }
+  .shopnow{
+    width: 129px;
+    height: 41px;
+    border-radius: 5px;
+    background-color: #088179;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .container-1 .right{
+    flex: 2;
+  text-align: right;
+  }
+  
+  .container-2{
+    border: none;
+    display: flex;
+    align-items: center;}
+.container-2 div img{
+    width: 100px;
+    
+    
+}
+.container-2 nav{
+  flex:3;
+  
+
+}
+.container-2 ul{
+  display: flex;
+  list-style: none;
+  
+  
+}
+
+
+.container-2 li a{
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  display: flex;
+  padding: 25px;
+  
+}
+.container-2{
+ 
+  margin-right: 20px;
+}
+.container-2 form input{
+  width: 350px;
+  padding: 10px;
+ justify-content: center;
+ 
+
+  
+}
+.div-like{
+margin: -8px;
+}
+#like{
+ width: 30px;
+ margin: 30px;
+ display: flex;
+
+    
+}
+#cart{
+  width: 30px;
+  margin-right: 50px;
+  padding-left: 5px;
+  display: flex;
+}
+/* header css ends here */
+
+/* hero starts here */
+
+.card-1{
+  display: flex;
+}
+.card-3{
+  display: flex;
+  margin-top: 50px;
+ 
+
+}
+
+section div{
+  flex: 1;
+
+
+}
+section div h2{
+  font-size: 2em;
+}
+section div h2 span{
+  font-size: 50px;
+  color: #088179;
+}
+section button:hover{
+  background-color: #088179;
+}
+.card-2 h3 span{
+  color: #088179;
+}
+.card-3 img{
+   width: 150px;
+}
+.card-3 figcaption{
+  text-align: center;
+}
+.item-3 img{
+  border-radius: 20px;
+}
+.item-3{
+  border: 1px solid green;
+   border-radius: 20px;
+   margin: 5px;
+   
+}
+.New{
+  color: #088179;
+}
+.shop-home-card-1 div h3{
+  color: #088179;
+}
+.shop-home-card-1 div s{
+  color:grey;
+}
+
+
+.item-5{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+} 
+.shop-home-card-1 img{
+   width: 100%;
+   border-radius: 20px;
+   
+}
+.shop-home-card-1{
+  border: 1px solid rgb(180, 185, 180);
+  border-radius: 20px;
+  margin: 15px;
+  padding: 20px;
+}
+
+.rate-box{
+  display: flex;
+    justify-content: space-between;
+}
+
+#add-cart-icon{
+  height: 15px;
+  width: 15px;
+  padding: 10px;
+  border: 1px solid green;
+  background-color: lightcyan;
+}
+
+.banner-section{
+  display: flex;
+  justify-content: space-between;
+
+ .banner-1,
+ .banner-2{
+    width: 49%;
+    height: 30rem;
+    position: relative;
+    margin: 1%;
+    padding: 20px;
+   img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.banner-1{
+  background-image: url(../assets/deals-1.jpg);
+}
+.banner-2{
+  background-image: url(../assets/deals-2.png);
+}
+.banner-content .Timer-box{
+ display: flex;
+ margin-right: 400px;
+}
+
+.Timer-box div h3{
+  background-color: #088179;
+  color:#e9f6eb ;
+  padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.Timer-box div p{
+  text-align: center;
+}
+
+
+.categories-section{
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  .category-box{
+    padding-right: 1.5rem;
+  }
+}
+.category-box .heading-part{
+  h4{
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  div{
+    width: 100%;
+    height: 2px;
+    background-color: var(--border-color);
+    margin-top: 0.8rem;
+    div{
+      width: 15%;
+      height: 100%;
+      background: var(--main-color);
+    }
+
+  }
+}
+span{
+  color: #088179;
+}
+.category-box .item-box{
+  padding: 1rem 0;
+}
+.item-box .item{
+  margin-top: 1.3rem;
+  height: 6rem;
+  display: flex;
+  column-gap:1.5rem;
+  img{
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 0.2;
+  }
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h4{
+      margin-top: 0.5;
+      font-size: 1rem;
+      color: var(--main-color);
+      s{
+        margin-left: 0.5rem;
+        font-size: 0.9rem;
+        color: var(--text-color-ligtest);
+      }
+    }
+
+  }
+  .hot{
+    font-size: larger;
+  }
+}
+.totalimg{
+  position: relative;
+  float: left;
+  overflow: hidden; 
+}
+.totalimg img{
+  
+  object-fit: cover;
+  transition: all .5s ease-in-out;
+}
+
+.normalimg:hover{
+  opacity: 0;
+}
+.hoverimg{
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+
+  &:hover{
+    scale: 1.1;
+  }
+  
+}
+.totalimg:hover .hoverimg{
+  display: block;
+}
+
+.footer-heading{
+  background-color:#adccc5;
+  display: grid;
+  grid-template-columns: 25% 30% 45%;;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 5rem;
+  
+}
+.svg-and-name{
+  display: flex;
+  align-items: center;
+  background-color:  #adccc5;
+}
+.svg-and-name img{
+  width: 50px;
+}
+.svg-and-name p{
+  padding-left: 12px;
+}
+.fotter-search-bar button{
+    width: 83px;
+    height: 42px;
+    margin-left: -6px;
+    background-color: black;
+    color: white;
+}
+.fotter-search-bar input{
+  width: 285px;
+  height: 42px; 
+  margin-left: 224px;
+
+}
+.receive{
+  margin-left: 117px;
+}
+.logo-1{
+  width: 100px;
+}
+.f-item-2{
+  display: flex;
+  flex-direction: column;
+}
+.f-item-1 .socail-media {
+  margin-top: 1rem;
+
+}
+
+.f-container{
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-between;
+  padding-left:5px;
+}
+
+.f-container div li{
+  margin-top: 1rem;
+}
+.f-item-1,.f-item-2,.f-item-3{
+  flex:1;
+}
+.card-time span{
+  background-color: rgb(192, 46, 46, 0);   
+}
+.times span{
+color: #000;
+text-decoration: none;
+font-size: 30px;
+background: none;
+margin: 0 10px;
+  
+
+}
+
+
+.choco{
+  margin-left:31px;
+}
+.list{
+  margin-left: 18px;
+  margin-right:225px;
+  padding-left: 0px;
+}
+.f-item-4{
+  margin-right: 130px;
+}
+.bottom-part{
+  display: flex;
+  justify-content: space-between;
+}
+
