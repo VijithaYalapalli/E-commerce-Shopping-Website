@@ -1,0 +1,76 @@
+.home-account{
+  text-decoration: none;
+  color: black;
+  background-color:rgb(230, 230, 230);
+  border-bottom: 1px solid;
+  line-height: 60px;
+  padding-left: 88px;
+}
+.home{
+  text-decoration: none;
+  color: black;
+}
+.greater{
+  padding: 17px;
+}
+
+.auth-section {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    column-gap: 1.6%;
+  
+    .login-block,
+    .register-block {
+      width: 49%;
+      height: fit-content;
+      border: 2px solid #e6e6e6;
+      border-radius: 0.5rem;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      row-gap: 1rem;
+  
+      input {
+        height: 2.7rem;
+        border-radius: 0.3rem;
+        border:1px solid #e6e6e6;
+  
+        &::placeholder {
+          font-family: "Lato", sans-serif;
+          color: #757575;
+        }
+  
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+
+  .button {
+    height: 2.7rem;
+    border: 1px solid #088179;
+    background: #088179;
+    border-radius: 0.3rem;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  
+    &:hover {
+      border: 2px solid #088179;
+      background: #fff;
+      color: #088179;
+      font-weight: bold;
+    }
+  } 
+  
+  .login-block button {
+    width: 6rem;
+  }
+  
+  .register-block button {
+    width: 10rem;
+  }
+  
